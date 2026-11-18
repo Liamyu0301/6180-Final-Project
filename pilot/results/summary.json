@@ -1,0 +1,141 @@
+{
+ "meta": {
+  "sample": "conv-30",
+  "sessions": 19,
+  "history_tokens": 19274,
+  "budget_tokens": 1927,
+  "history_chars": 52146,
+  "worker": "claude-haiku-5-5",
+  "judge": "claude-sonnet-5-5",
+  "ratio": 10
+ },
+ "conditions": {
+  "full": {
+   "n": 81,
+   "correct": 64,
+   "accuracy": 79.0,
+   "ci95": [
+    68.9,
+    86.5
+   ],
+   "answered_unknown": 5
+  },
+  "rag": {
+   "n": 81,
+   "correct": 54,
+   "accuracy": 66.7,
+   "ci95": [
+    55.9,
+    76.0
+   ],
+   "answered_unknown": 12,
+   "errors": {
+    "EVIDENCE_NOT_RETRIEVED": 23,
+    "EVIDENCE_RETRIEVED": 4
+   }
+  },
+  "oneshot_L0": {
+   "n": 81,
+   "correct": 46,
+   "accuracy": 56.8,
+   "ci95": [
+    45.9,
+    67.0
+   ],
+   "answered_unknown": 21,
+   "memory_tokens": 1956,
+   "errors": {
+    "PRESENT": 13,
+    "MISSING": 21,
+    "CONFLICT": 1
+   }
+  },
+  "oneshot_L1": {
+   "n": 81,
+   "correct": 37,
+   "accuracy": 45.7,
+   "ci95": [
+    35.3,
+    56.5
+   ],
+   "answered_unknown": 33,
+   "memory_tokens": 1997,
+   "errors": {
+    "MISSING": 33,
+    "CONFLICT": 2,
+    "PRESENT": 9
+   }
+  },
+  "oneshot_L2": {
+   "n": 81,
+   "correct": 37,
+   "accuracy": 45.7,
+   "ci95": [
+    35.3,
+    56.5
+   ],
+   "answered_unknown": 32,
+   "memory_tokens": 1994,
+   "errors": {
+    "MISSING": 34,
+    "CONFLICT": 4,
+    "PRESENT": 6
+   }
+  },
+  "incr_L0": {
+   "n": 81,
+   "correct": 30,
+   "accuracy": 37.0,
+   "ci95": [
+    27.3,
+    47.9
+   ],
+   "answered_unknown": 39,
+   "memory_tokens": 2009,
+   "errors": {
+    "MISSING": 41,
+    "PRESENT": 10
+   }
+  },
+  "incr_L1": {
+   "n": 81,
+   "correct": 23,
+   "accuracy": 28.4,
+   "ci95": [
+    19.7,
+    39.0
+   ],
+   "answered_unknown": 44,
+   "memory_tokens": 2006,
+   "errors": {
+    "MISSING": 52,
+    "PRESENT": 5,
+    "CONFLICT": 1
+   }
+  },
+  "incr_L2": {
+   "n": 81,
+   "correct": 11,
+   "accuracy": 13.6,
+   "ci95": [
+    7.8,
+    22.7
+   ],
+   "answered_unknown": 58,
+   "memory_tokens": 1579,
+   "errors": {
+    "MISSING": 62,
+    "PRESENT": 8
+   }
+  }
+ },
+ "cost_usd": {
+  "answer:claude-haiku-5-5": 0.09,
+  "attribute:claude-sonnet-5-5": 0.549,
+  "compress:claude-haiku-5-5": 0.581,
+  "gate:claude-haiku-5-5": 0.065,
+  "judge:claude-sonnet-5-5": 0.501,
+  "total": 1.786
+ },
+ "calls": 1910
+}

@@ -1,0 +1,58 @@
+=== COMPRESS 19:03:25
+history 19274 tokens, budget 1927 tokens
+incr L0 round 1 1391 tokens
+oneshot L0 1956 tokens, attempts 1
+incr L1 round 1 1583 tokens
+oneshot L2 1994 tokens, attempts 2
+oneshot L1 1997 tokens, attempts 3
+incr L2 round 1 1664 tokens
+incr L0 round 2 1964 tokens
+incr L1 round 2 1824 tokens
+incr L2 round 2 1884 tokens
+incr L0 round 3 1642 tokens
+incr L2 round 3 1647 tokens
+incr L0 round 4 1930 tokens
+incr L1 round 3 1267 tokens
+incr L1 round 4 1857 tokens
+incr L0 round 5 1993 tokens
+incr L2 round 4 1350 tokens
+incr L1 round 5 1931 tokens
+incr L2 round 5 1915 tokens
+incr L0 round 6 1598 tokens
+incr L2 round 6 1942 tokens
+incr L0 round 7 2011 tokens
+incr L0 round 8 1722 tokens
+incr L2 round 7 1632 tokens
+incr L0 round 9 1241 tokens
+incr L0 round 10 2017 tokens
+incr L2 round 8 1509 tokens
+incr L2 round 9 1868 tokens
+incr L2 round 10 1985 tokens
+incr L2 round 11 1961 tokens
+incr L2 round 12 1760 tokens
+incr L2 round 13 2021 tokens
+incr L2 round 14 1796 tokens
+incr L2 round 15 1825 tokens
+incr L2 round 16 1793 tokens
+incr L2 round 17 1382 tokens
+incr L2 round 18 1834 tokens
+incr L2 round 19 2019 tokens
+Traceback (most recent call last):
+  File "/Users/yumengli/Documents/NEU/6180/final-project/pilot/pilot.py", line 368, in <module>
+    step_compress(names[0] if names else "all")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yumengli/Documents/NEU/6180/final-project/pilot/pilot.py", line 215, in step_compress
+    fut.result()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/yumengli/Documents/NEU/6180/final-project/pilot/pilot.py", line 203, in incremental
+    m = compress_once(fmt, budget, body, {"step": "compress", "mode": "incr", "fmt": fmt, "round": s["idx"]})
+  File "/Users/yumengli/Documents/NEU/6180/final-project/pilot/pilot.py", line 158, in compress_once
+    raise RuntimeError("compression stopped with %s (%s)" % (stop, tag))
+RuntimeError: compression stopped with max_tokens ({'step': 'compress', 'mode': 'incr', 'fmt': 'L0', 'round': 11})

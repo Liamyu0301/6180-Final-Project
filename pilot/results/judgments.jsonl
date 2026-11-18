@@ -1,0 +1,648 @@
+{"cond": "full", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 8, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 7, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 10, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 6, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 5, "correct": false, "raw": "The gold answer lists three features: by the water, natural light, and Marley flooring. The model's answer matches only \"by the water\" (with an ocean view). It adds \"a few yoga mats,\" which is not in the gold answer, and leaves out natural light and Marley flooring. Since the model must give the main items and it misses two of them, it is wrong.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 12, "correct": true, "raw": "The model's answer, \"the week before 16 March 2023,\" places the start in mid-March 2023 (roughly 9–15 March), which falls within March 2023. This is consistent with the gold answer of \"March, 2023.\"\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 3, "correct": true, "raw": "The gold answer says they lost their jobs and decided to start their own businesses. The model's answer includes \"Both lost their jobs and started their own businesses,\" which matches. The extra details about dance are harmless additions.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 18, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 16, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 4, "correct": false, "raw": "The gold answer has two parts: Jon lost his job, and he started his own business to share his passion. The model's answer covers only the passion and sharing it. It leaves out the job loss, which is the main trigger in the gold answer.\n\nThe question asks \"why,\" and the gold answer centers on the job loss as the reason he began the business. The model's answer is partially right but omits that key fact, so it falls short.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 15, "correct": true, "raw": "The model's answer states May 2023, which matches the gold answer. The extra detail about the announcement and the \"planned\" note is harmless context.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 11, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 22, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 19, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 14, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 27, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 21, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 26, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 29, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 20, "correct": true, "raw": "The model's answer gives 27 May 2023 as the acceptance date, which matches the gold answer. It hedges with \"around\" and adds some commentary about the context, but the core date is the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 35, "correct": true, "raw": "The gold answer is July 2023. The model's answer, 9 July 2023, falls in July 2023, so it is consistent with the gold answer and only adds a specific day.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 25, "correct": true, "raw": "The model answer includes one-on-one mentoring and training, plus workshops and classes for local schools and centers. These are the main items in the gold answer. It adds dance competitions, which is extra detail that may or may not be accurate. The core facts match, so I'm accepting it.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 23, "correct": false, "raw": "The gold answer lists four items: working with an artist on unique pieces, limited-edition sweatshirts, new offers and promotions for the online store, and a video presentation showing how to style her pieces. The model's answer matches only \"new offers and promotions\". It adds ad campaigns and influencer plans, which are not in the gold answer. It leaves out the artist collaboration, the limited-edition sweatshirts, and the styling video. Since the model must give the main items and covers only one of four, it is wrong.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 24, "correct": true, "raw": "The model's answer includes fair, networking events, and dance competition, which are the gold items. It adds the studio grand opening as an extra detail. The extra item doesn't contradict the gold answer, so the main items match.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 28, "correct": true, "raw": "The gold answer is June 2023. The model says the week before 19 June 2023, around 12 June 2023, which falls within June 2023. This is consistent with the gold answer and adds harmless detail.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 17, "correct": false, "raw": "The gold answer has two parts: Gina loved fashion and unique pieces, and she lost her job and so decided to start her own business. The model answer covers only the job loss, which it frames as taking control of her destiny, and adds that the job was at Door Dash. It leaves out the fashion passion.\n\nThe question asks why she started the store. The job loss is a core part of the gold answer, but the love of fashion is the other main reason. The model gives only one of the two, though the one it gives matches. The Door Dash detail is plausible, since in the LoCoMo dataset Gina did lose her job at Door Dash.\n\nThe grading rule says the model must give the main items when the gold answer lists several. Here the fashion passion is a main item and the model omitted it, so the answer is incomplete. Still, the model captured the trigger for the decision. This is borderline, and I lean toward WRONG because half the reason is missing.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 32, "correct": true, "raw": "The gold answer is June 2023. The model's answer, \"the week before 21 June 2023 (around mid-June 2023)\", falls within June 2023 and gives the same month and year.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 36, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 41, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 34, "correct": true, "raw": "The gold answer is July 2023. The model says \"the week before 9 July 2023,\" which falls in early July 2023 (or possibly the very end of June, depending on the week). The model's answer centers on July 2023 and references the session date. \"The week before 9 July\" would be roughly 2–8 July, which is in July 2023. This is consistent with the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 37, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 31, "correct": false, "raw": "The gold answer is six months, and the model says about 5 months. Jan 19-20 to June 20 is actually about 5 months, but the model's final answer differs from the gold answer of six months. It is a different duration, so it is WRONG.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 45, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 51, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 49, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 52, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 33, "correct": true, "raw": "The model's answer gives 20 June 2023, which matches the gold answer. The extra detail about a dance studio rather than a store is a harmless difference in framing and does not change the date.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 38, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 42, "correct": false, "raw": "The gold answer is the title of the piece, \"Finding Freedom\". The model answered with a dance genre, \"Contemporary\". The question asks what kind of dance piece, which could mean genre, but the gold answer is a specific title. \"Contemporary\" does not state the same fact as the title.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 47, "correct": true, "raw": "The model's answer says Gina found a great spot for her store, which matches the gold answer's \"perfect spot for her store\". The added parenthetical about a shopping mall location is extra detail that doesn't contradict the gold answer, though it may not be confirmed.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 55, "correct": true, "raw": "The model's answer says freedom, and ties it to dancing without worrying about what people think. The gold answer says freedom and expressing herself through dance. Dancing freely without concern for others' opinions is essentially self-expression through dance, so the two match closely enough.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 50, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 44, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 48, "correct": false, "raw": "The gold answer lists the space, furniture, and decor. The model mentions only the interior space and then adds clothing designs, and it never names furniture or decor. That omits two of the three main items. The added clothing detail is not part of the gold answer, so it doesn't make up for the gap.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 54, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 53, "correct": true, "raw": "The model's answer includes the gold fact, that the experience would make customers want to come back. The \"cool oasis\" detail is extra and does not contradict the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 60, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 59, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 65, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 61, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 62, "correct": false, "raw": "The gold answer lists three items: reminding herself of successes and progress, having a support system, and focusing on why she started. The model gave only the first. The instructions say the model must give the main items when the gold lists several, and this answer omits two of the three.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 68, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 72, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 67, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 57, "correct": false, "raw": "The gold answer lists building relationships with customers, creating a strong brand image, and staying positive. The model's answer covers passion, focus, resilience, self-belief, learning, and networking with people in the field. Networking with peers is not the same as building customer relationships. The model says nothing about brand image. \"Stay passionate... resilient\" overlaps loosely with staying positive, but that is only one of the three items. The main points do not match.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 63, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 71, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 66, "correct": true, "raw": "The model's answer includes the gold answer, \"One-on-one mentoring and training,\" and only adds \"plus dance classes and workshops.\" That addition is extra detail and does not contradict the gold answer. The main fact matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 76, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 78, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 80, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 75, "correct": false, "raw": "WRONG\n\nThe gold answer is \"Let's live it up and make some great memories.\" The model's answer says Gina can't wait for tomorrow's grand opening and will be by Jon's side. That is a different statement and does not convey the \"live it up and make memories\" message.", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "full", "qid": 74, "correct": true, "raw": "The gold answer is \"savor all the good vibes.\" The model says \"Savor the moment and make awesome memories with Gina.\" \"Savor\" matches, and \"the moment\" is roughly equivalent to \"all the good vibes.\" The addition of making memories with Gina is extra detail that doesn't contradict the gold answer. The core idea of savoring the experience is the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 8, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 7, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 6, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 4, "correct": false, "raw": "The gold answer has two parts: Jon lost his job, and he decided to start his own business to share his passion. The model answer gives only the passion/sharing part and leaves out the job loss. That omission is the triggering reason in the gold answer. The model's answer is partially consistent, but the core fact that he lost his job is absent.\n\nThe question asks \"why,\" and the gold answer's reason combines both. The model gets the passion motive, which is the stated purpose of the business. A lenient grader might accept it, but the guidelines say that if the gold lists several items, the model must give the main ones. Losing the job is a main item.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 10, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 12, "correct": true, "raw": "The model's answer says \"the week before 16 March 2023,\" which falls in early-to-mid March 2023. The gold answer is \"March, 2023.\" These are consistent: the week before March 16 is roughly March 9–15, which is in March 2023.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 5, "correct": false, "raw": "WRONG\n\nThe gold answer names three features: by the water, natural light, and Marley flooring. The model's answer gets \"by the water\" right. It then adds an ocean view and yoga mats, and it omits natural light and Marley flooring. That is not the same fact.", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 14, "correct": true, "raw": "The gold answer is \"April, 2023\" and the model says \"3 April, 2023\", which falls within April 2023 and is a more specific version of the same date. It is consistent with the gold answer and adds only harmless detail.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 18, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 3, "correct": false, "raw": "The gold answer says they both lost their jobs and decided to start their own businesses. The model's answer captures that both are running their own businesses, but it leaves out the job loss. It also adds details about a clothing store and a dance studio, and says they face similar challenges, which the gold answer doesn't mention.\n\nThe shared fact in the gold answer has two parts: losing their jobs and starting businesses. The model gives only the second part. The core commonality, starting their own businesses, is present, but the job loss is missing.\n\nThis is borderline. The question asks what they have in common, and the gold answer's main point is the pairing of job loss with entrepreneurship. Starting their own businesses is the more central element, but the omission of the job loss makes the answer incomplete.\n\nI lean toward WRONG because the model omits a key part of the gold answer.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 11, "correct": true, "raw": "The gold answer says \"A few years ago.\" The model says \"A few years before 8 February 2023 (exact date not given),\" which conveys the same fact: a few years prior to the conversation date. It adds a reference date but does not contradict the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 16, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 22, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 21, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 20, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 19, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 27, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 23, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 17, "correct": false, "raw": "The gold answer gives two reasons: she loved fashion trends and unique pieces, and she lost her job so she decided to start her own business. The model's answer gives only the job loss and omits the love of fashion. Since the gold answer lists several items and the model must give the main ones, this is incomplete. However, the job loss was the trigger for the decision. The passion for fashion is still a main part of the \"why,\" so the answer is missing a key component.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 24, "correct": false, "raw": "The gold answer lists three events: a fair, networking events, and a dance competition. The model's answer gives only the fair and the networking events, so it omits the dance competition. The grading rule requires the main items from a list, and one of the three is missing.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 29, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 25, "correct": false, "raw": "The gold answer lists two main items: one-on-one mentoring and training for dancers, and workshops and classes for local schools and centers. The model's answer includes the workshops and classes but leaves out the one-on-one mentoring and training. It adds a different point, a place for self-expression through dance, which is not in the gold answer. Since the model misses one of the two main items, it is incomplete.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 15, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 37, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 26, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 32, "correct": true, "raw": "The gold answer is June 2023. The model says the week before 21 June 2023, about mid-June 2023, which falls within June 2023 and matches the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 28, "correct": true, "raw": "The model's answer, \"the week before 19 June 2023,\" falls in June 2023 (roughly 12–18 June). That is consistent with the gold answer of June 2023.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 36, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 34, "correct": true, "raw": "The gold answer is July 2023. The model says the week before 9 July 2023, around early July 2023, which falls in July 2023 and matches the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 31, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 35, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 39, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 41, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 33, "correct": true, "raw": "The model gives the date as around 20 June 2023, which matches the gold answer. It also says the events were for his dance studio rather than a store. That is a correction of the question's premise (in the source conversation Jon is opening a dance studio), and it does not change the date, so it counts as harmless extra detail.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 45, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 42, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 38, "correct": true, "raw": "The model's answer gives 21 July 2023, which matches the gold answer. The added weekday and the note about the message are harmless extra detail. (21 July 2023 was in fact a Friday.)\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 49, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 47, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 52, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 55, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 51, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 54, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 53, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 65, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 61, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 57, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 50, "correct": false, "raw": "The gold answer says Jon remarked that Gina's hard work is paying off. The model's answer quotes Jon saying she's \"awesome with your store\" and \"did great taking that leap.\" That is praise, but it does not say hard work is paying off. It points to a different statement and does not state the same fact.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 59, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 68, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 62, "correct": false, "raw": "The gold answer lists three items: reminding herself of successes and progress, having a support system, and focusing on why she started. The model gave the first two but left out focusing on why she started. The instruction says the model must give the main items from a list. The model covered two of the three, so one is missing. That may be acceptable if the omitted item is considered minor, but it is one of three equally weighted items, so the answer is incomplete.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 66, "correct": true, "raw": "The gold answer is one-on-one mentoring and training. The model's answer includes this, and adds dance classes and workshops. That extra detail doesn't contradict the gold answer, though it does broaden it. The main item is present, so the answer is acceptable.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 72, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 78, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 76, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 63, "correct": true, "raw": "The model answer states \"A fashion internship,\" matching the gold answer. The extra note about the date being 27 May rather than 23 May is a discrepancy with the question's premise, but the core fact asked (the kind of experience) matches the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 60, "correct": false, "raw": "The gold answer is \"happy\". The model's answer, \"Fun and exhausting\", does not state that dance makes him happy. \"Fun\" is loosely related, but \"exhausting\" is a different claim, and the answer never says \"happy\".\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 71, "correct": true, "raw": "The gold answer is \"amazing.\" The model says \"Fantastic, expanding, and giving dancers an outlet.\" \"Fantastic\" is a synonym of \"amazing,\" and the extra details are harmless additions rather than contradictions. Since the main descriptor matches in meaning, this counts as correct.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 73, "correct": true, "raw": "The gold answer is \"magical\". The model's answer lists joyful, thrilling, and magical, so it includes \"magical\" along with extra descriptors. That is harmless extra detail, and the main item is present.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 80, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "rag", "qid": 74, "correct": false, "raw": "The gold answer says Jon plans to \"savor all the good vibes,\" while the model says he plans to \"make some awesome memories.\" These are related in spirit, but they describe different plans. Savoring good vibes is about enjoying the atmosphere, and making memories is about creating lasting experiences. They are not clearly the same fact, so the model's answer doesn't match closely enough.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 7, "correct": true, "raw": "The model's answer gives January 29 and leaves out the year. The gold answer is 29 January, 2023. The day and month match, and the year is only missing, not contradicted. Leaving it out is a minor omission, so the answer is essentially the same date.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 5, "correct": false, "raw": "WRONG\n\nThe gold answer says the studio should be by the water, with natural light and Marley flooring. The model answer gets the water setting right but leaves out natural light and Marley flooring. It adds \"yoga mats,\" which is not Marley flooring, and \"ocean views,\" which is not stated in the gold answer. Two of the three key details are missing or wrong.", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 6, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 8, "correct": true, "raw": "The model answer gives January 28 without a year. The gold answer is 28 January 2023. The date matches; the year is omitted, but the conversation context implies it. The extra detail (\"the day before his January 29 conversation\") is harmless.\n\nStrictly, the year is missing, but the main fact (the date) matches, so it should be accepted.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 4, "correct": false, "raw": "The gold answer states that Jon lost his job and decided to start his own business to share his passion. The model's answer gives only the motive of sharing his passion for dance, and it frames it as teaching others the joy dancing gave him. It leaves out the job loss, which is a main part of the reason in the gold answer. It also adds a detail about loving dance since childhood that the gold answer doesn't mention.\n\nThe shared element is sharing his passion, but the model omits the key trigger, losing his job. That makes it incomplete relative to the gold answer.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 3, "correct": true, "raw": "The gold answer says they lost their jobs and decided to start their own businesses. The model answer states both lost their jobs and turned to their own businesses, which covers the same fact. It also adds the detail about dance and the date, which is harmless extra information.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 13, "correct": true, "raw": "The model's answer gives March 16 but omits the year 2023. The gold answer is 16 March, 2023. The question context likely only has one year, and the model's date matches the day and month. The omission of the year is a minor gap, and the date otherwise matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 11, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 9, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 16, "correct": true, "raw": "The model answer gives \"April 24\" without the year, while the gold answer is \"24 April, 2023\". The date matches, and the year is missing but not contradicted. Accepting paraphrases and different date formats, this is the same fact.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 14, "correct": true, "raw": "The gold answer is \"April, 2023\". The model answered \"April 3\" with no year. The month matches, and a specific day within April is consistent with it, though the gold answer gives no day. The model's answer is a more specific date that falls within the gold month. The year is omitted, but it's plausibly 2023 by context.\n\nThe risk is that \"April 3\" might not match the actual date, but the gold answer only says April 2023. A date in April is generally consistent with it, so I'll accept it.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 10, "correct": true, "raw": "The gold answer is February 2023, and the model answered \"February 8\" with no year. The month matches. The year is missing, but the question is about when, and a model answer giving February 8 is consistent with February 2023 if the conversation is in 2023. The added specific day could be a detail not in the gold, but it is not contradictory.\n\nTypically in this dataset (LoCoMo), Gina's conversation occurred in 2023, so February 8 would be Feb 8, 2023. The answer is likely consistent.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 19, "correct": true, "raw": "The model's answer, \"May 10,\" matches the gold answer's day and month. It leaves out the year, 2023, but the date is otherwise the same, so I count it as correct.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 12, "correct": false, "raw": "The gold answer says March 2023. The model says \"By March 16,\" which suggests it was already happening by that date in March, without a year. \"By March 16\" implies a start on or before March 16, possibly earlier than March, so it doesn't clearly match \"March, 2023.\" The model's answer does point to March, and a missing year could be forgiven if the context implied it. But \"by\" suggests the start may have been before March 16, which is roughly consistent with March, though it could also mean February.\n\nThe two are close but not the same claim. Being lenient, \"by March 16\" is roughly March. Yet it hedges and does not state the start month definitively.\n\nI judge it WRONG, since it does not say it started in March.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 18, "correct": true, "raw": "The model answers \"Yes\", which matches the gold answer. The extra detail about Jon's dance studio and Gina's clothing store is consistent with the question and harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 20, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 17, "correct": false, "raw": "The gold answer has two reasons: she loved fashion trends and finding unique pieces, and she lost her job so she decided to start her own business. The model answer only gives the job loss (with the extra detail of Door Dash) and leaves out the love of fashion. The job loss is the trigger, but the passion for fashion is a main part of the gold answer and is missing.\n\nBecause the model captured only one of the main reasons, it is incomplete. However, the question asks \"why\", and the key causal event, losing her job and starting her own business, is present. The omission of the fashion passion is significant, though.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 15, "correct": true, "raw": "The gold answer is May 2023. The model says May, with a note that it was announced on April 3 as a planned event. The month matches, and the year is not stated but is not contradicted. The extra detail is harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 22, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 25, "correct": true, "raw": "The gold answer lists one-on-one mentoring and training, plus workshops and classes for local schools and centers. The model answer includes classes, workshops, and one-on-one mentoring and training, so it covers the main items. It also adds hosting dance competitions, which is extra detail that doesn't contradict the gold answer. It omits the \"to local schools and centers\" part, but the main items are all there.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 26, "correct": true, "raw": "The model's answer, \"June 15,\" matches the gold answer's month and day. It leaves out the year 2023, but the question does not hinge on the year, so I treat the answer as the same fact.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 27, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 29, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 21, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 24, "correct": true, "raw": "The gold answer lists three items: fair, networking events, dance competition. The model's answer includes a business fair, networking events, and a dance competition (hosting at his studio). It adds an investor-meeting event, which is harmless extra detail. The dance competition is described as \"planned,\" but it still matches the gold item at the level of the event type.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 28, "correct": true, "raw": "The gold answer is June 2023, and the model says the week before June 19, 2023, which is mid-June 2023. That falls within June 2023 and is consistent with the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 35, "correct": true, "raw": "The gold answer is July 2023. The model answered \"July 9\" with no year. The month is the same and the day is extra detail that doesn't contradict the gold. The year is missing, but the conversation likely sits in 2023, so this is probably consistent with it.\n\nThe risk is that \"July 9\" might refer to a different date than the one in the gold. The gold gives only the month, though, and July 9 falls inside July, so the two don't conflict.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 23, "correct": true, "raw": "The gold answer lists four items: working with an artist for unique pieces, limited-edition sweatshirts, new offers and promotions for the online store, and a video presentation on styling.\n\nThe model's answer covers three of them: online promotions, the styling video, and limited-edition hoodies, which is close to sweatshirts. It leaves out the artist collaboration. It also adds ad campaigns and fashion bloggers and influencers, which are not in the gold answer.\n\nThe model gave most of the main items but missed the artist collaboration and added some that don't match. The question is whether that is enough. \"Hoodie\" is close to \"sweatshirt,\" and the other two matches are clear. Three of four is probably acceptable, though the extra claims lower confidence.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 36, "correct": true, "raw": "The model's answer, \"July 21\", matches the gold answer's day and month, 21 July. It leaves out the year, 2023, but the date is otherwise the same, so I count it as correct.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 30, "correct": true, "raw": "The gold answer is 20 June, 2023. The model answer gives June 20, which is the same day. It leaves out the year, but it adds the detail that this is the opening night, and nothing in it contradicts the gold answer. That matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 32, "correct": true, "raw": "The gold answer is June 2023, while the model answered \"June 21\". This is ambiguous: June 21 could be June 21, 2023, which would fit, but the model gave no year. It could also mean \"June 21\" of another year, or the model could be giving a different fact. The date is compatible with June (the month matches), and the day is extra detail. Since the year is missing, I can't confirm the full match, but the month is the same and the day is just additional detail. It is likely the same fact, but the missing year makes it uncertain.\n\nLeaning on the month matching, the answer is probably consistent with the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 31, "correct": false, "raw": "The gold answer is six months, while the model says about five months. These are different durations, so the model's answer does not match.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 34, "correct": false, "raw": "The gold answer is July 2023. The model answered \"July 9\" with no year. That could fit the right month, but the day is an extra specific claim and the year is missing. It might be a different date altogether, such as July 9 of another year. The model did not state the same fact as the gold answer, so I grade it as wrong.\n\nStill, the month matches, and a lenient grader might accept it. The gold answer gives no day, and \"July 9\" does not confirm 2023. The match is only partial, so I stay with wrong.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 42, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 33, "correct": true, "raw": "The model gives June 20, which matches the gold date of 20 June, 2023. The model's year is missing, but it's implied. The parenthetical note about \"dance studio, not a store\" adds a correction about the premise but doesn't change the date. The core fact matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 49, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 57, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 53, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 55, "correct": false, "raw": "The gold answer has two parts: freedom, and expressing herself through dance. The model gives only \"Freedom,\" which covers part of the symbolism but leaves out the dance element. The instructions say that when the gold answer lists several items, the model must give the main ones. Freedom is arguably the main item, but expression through dance is also a core part of the answer. The model's answer is incomplete, so I'm marking it wrong.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 59, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 61, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 54, "correct": false, "raw": "The gold answer says the store is doing great. The model says \"A roller coaster but rewarding,\" which is mixed and not the same as \"doing great,\" although it adds that she built a new website. That only partly overlaps with the gold answer and does not state that the store is doing great. It describes ups and downs rather than success.\n\nThe model's answer likely refers to different dates than the gold answer, which probably comes from a specific moment where Gina said the store is doing great. The model's characterization differs from that.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 65, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 66, "correct": true, "raw": "The gold answer is one-on-one mentoring and training. The model's answer includes that item and adds classes and workshops. Those additions are extra detail and do not contradict the gold answer, so the main item is stated.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 68, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 72, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 71, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 62, "correct": false, "raw": "The gold answer lists three main items: reminding herself of her successes and progress, having a support system, and focusing on why she started.\n\nThe model's answer lists: focusing on her big goal, leaning on her support system, and dancing to clear her head.\n\nOverlap: the support system matches. \"Focusing on her big goal\" is loosely similar to \"focusing on why she started,\" but it is not the same. The model does not mention reminding herself of successes and progress, and it adds dancing, which is not in the gold answer.\n\nOnly one of the three main items clearly matches, so the answer is incomplete.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 60, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 63, "correct": true, "raw": "The gold answer is \"fashion internship\". The model answer says \"Part-time fashion internship,\" which matches the core fact, though it adds a note about the date being May 27 instead of May 23. The question asks what kind of professional experience, and the model identifies a fashion internship. The date remark is extra detail and does not change the answer to the asked question.\n\nDoes the date disagreement make it wrong? The model is saying the report was on May 27, not May 23, which is a quibble with the question premise, but the main answer still matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 7, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 8, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 4, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 3, "correct": true, "raw": "The gold answer says they both lost their jobs and started their own businesses. The model's answer includes this: \"Both lost their jobs in January 2023 and then started their own businesses.\" The extra details are harmless additions, so the core fact matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 6, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 10, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 5, "correct": true, "raw": "The gold answer: by the water, natural light, Marley flooring. The model answer includes natural light, a view (ocean-view studio, which corresponds to by the water), and Marley flooring. It adds a downtown location, which may be extra detail. The main items are covered.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 12, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 80, "correct": true, "raw": "The gold answer lists three items: sprucing up the business plan, tweaking the pitch to investors, and working on an online platform. The model's answer covers refining the business plan and pitch, and building an online platform. It mentions all three main items, adding only the detail \"to showcase the studio,\" which is harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 11, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L0", "qid": 76, "correct": true, "raw": "The gold answer is \"excitement.\" The model said \"Positive and supportive\" and added that Gina would attend opening night. That is a positive sentiment, but it describes support rather than excitement. The two are close but not the same. \"Positive\" is a broad category that includes excitement, and \"supportive\" is a different quality from excited.\n\nJudged leniently, a positive sentiment about an upcoming event and planned attendance could be read as matching excitement. Judged strictly, the model never names excitement or anticipation, so it states a different fact.\n\nI lean toward the lenient reading, since \"positive\" with planned attendance conveys roughly the same general sentiment.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 15, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 16, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 14, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 19, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 17, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 22, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 21, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 25, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 26, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 18, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 20, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 32, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 29, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 24, "correct": false, "raw": "The gold answer lists three items: fair, networking events, and dance competition. The model's answer includes the fair and networking events, and adds the grand opening, but it does not mention a dance competition. Since the model must give the main items and one is missing, the answer is incomplete.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 28, "correct": true, "raw": "The model's answer of \"Mid-June 2023\" falls within June 2023 and is consistent with the gold answer, just slightly more specific.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 23, "correct": false, "raw": "The gold answer lists several promotion methods: working with an artist on unique pieces, limited-edition sweatshirts, new offers and promotions for the online store, and a video presentation on styling her pieces.\n\nThe model's answer mentions only an ad campaign and a limited-edition hoodie line. The hoodie line roughly matches the limited-edition sweatshirts. The ad campaign is not in the gold answer, though it could loosely overlap with the offers and promotions. The artist collaboration and the styling video are both missing, so the model gives only one of the main items clearly.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 27, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 34, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 35, "correct": true, "raw": "The gold answer is July 2023, and the model's answer of 9 July 2023 falls within that month. It is more specific than the gold answer but consistent with it, so it counts as a harmless extra detail.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 33, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 31, "correct": false, "raw": "The gold answer is six months, while the model says about 5 months. These are different durations, so the model's answer does not match.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 42, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 36, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 55, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 65, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 49, "correct": true, "raw": "The gold answer is \"cozy and comfortable.\" The model says \"cozy and inviting, like a cool oasis.\" This matches \"cozy\" but replaces \"comfortable\" with \"inviting\" and adds \"cool oasis,\" which is a different image. \"Inviting\" is close to \"comfortable\" but not the same. The main idea of cozy is there, and the rest is similar in spirit. It's borderline.\n\nThe gold lists two items, and the model must give the main ones. \"Cozy\" matches. \"Inviting\" is a near-synonym for \"comfortable\" in this context, so I lean toward accepting it.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 57, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 53, "correct": false, "raw": "WRONG\n\nThe gold answer says Gina wanted to make customers want to come back. The model's answer describes a cozy, inviting store like an oasis, which is a different point and never mentions customers wanting to return.", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 59, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 60, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 54, "correct": true, "raw": "The gold answer says the store is doing great. The model answer says it is growing, with an online launch, attention from fashion editors, and a new website. This implies it is doing well, so it conveys the same general fact: the store is thriving. The extra details are harmless, though they are not confirmed by the gold answer.\n\n\"Growing\" with positive developments is consistent with \"doing great.\" I'd accept it.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 63, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 62, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 61, "correct": false, "raw": "The gold answer is \"a trophy\". The model's answer says first place at regionals, which is a different fact and never mentions a trophy. Winning first place might imply a trophy, but the answer does not state it.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 66, "correct": true, "raw": "The model's answer includes one-on-one mentoring and training, which is the gold answer's main point. The extra items (classes, workshops) are additional detail and don't contradict the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 68, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 71, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 72, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 73, "correct": false, "raw": "The gold answer is \"magical,\" but the model answered \"freedom, dancing without worrying what people think\" and stress relief. That is a different description and never mentions \"magical.\"\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 8, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 76, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 6, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 11, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 7, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 3, "correct": true, "raw": "The model's answer says both lost their jobs and started their own businesses, which matches the gold answer. The extra detail about dance is harmless addition.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 5, "correct": false, "raw": "The gold answer says the studio should be by the water, with natural light and Marley flooring. The model says downtown, with natural light and Marley flooring. The location is different: \"by the water\" versus \"downtown.\" That contradicts a key part of the gold answer. The model gets natural light and Marley flooring right but gives the wrong location.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L1", "qid": 80, "correct": false, "raw": "The model's answer, \"Seek investors for the studio,\" only partly overlaps with the gold answer. The gold answer lists three plans: sprucing up the business plan, tweaking the pitch to investors, and working on an online platform. The model mentions only seeking investors, which is not the same as tweaking the pitch and does not cover the other two plans.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 4, "correct": false, "raw": "The gold answer has two parts: Jon lost his job, and he decided to start his own business to share his passion. The model's answer gives only the passion and sharing part and leaves out the job loss, which is the main reason he started the studio. Since a key element is missing, the model's answer is incomplete.\n\nStill, the question asks why he started the studio, and the model captures the motivation of sharing his passion. The gold answer's core could be read as either \"lost job\" or \"share passion.\" The job loss is the trigger, so omitting it makes the answer partial. I lean toward WRONG.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 12, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 18, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 10, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 14, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 19, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 21, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 9, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 16, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 20, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 26, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 15, "correct": true, "raw": "The model answer states May 2023, which matches the gold answer. The added caveats (planned, announced April 2023, not confirmed) are extra detail but the core date matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 27, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 22, "correct": true, "raw": "The model's answer gives June 2023, which matches the gold answer's date. The added note \"planned, not confirmed as completed\" is extra detail that does not change the date.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 28, "correct": true, "raw": "The model's answer says the week before 19 June 2023, which is mid-June 2023. This falls within June 2023, so it matches the gold answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 17, "correct": true, "raw": "The gold answer has two parts: she loved fashion trends and unique pieces, and she lost her job so she started her own business. The model says she lost her Door Dash job and \"turned to fashion.\" That covers the job loss. It only loosely suggests the fashion interest, and it never mentions starting her own business or the love of trends and unique pieces. It does say she turned to fashion, which partially conveys the motivation. The main reasons given are job loss and fashion passion, and the model's answer is brief but captures both in essence. Even so, \"turned to fashion\" does not state that she always loved fashion. It is borderline.\n\nThe job loss is the key trigger, and \"turned to fashion\" is consistent with the rest. I'll lean toward correct.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 29, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 23, "correct": false, "raw": "The model's answer does not match the gold answer's main items. The gold answer lists working with an artist on unique pieces, limited-edition sweatshirts, new offers and promotions for the online store, and a styling video presentation. The model mentions only promotions, which overlaps with one item. It adds an ad campaign and fashion bloggers and influencers, which are not in the gold answer. Most of the main items are missing.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 32, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 25, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 34, "correct": true, "raw": "The gold answer is July 2023. The model says early July 2023, specifically the week before 9 July 2023. This falls within July 2023 and is consistent with it, adding harmless detail.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 35, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 33, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 36, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 24, "correct": true, "raw": "The gold answer lists three events: a fair, networking events, and a dance competition.\n\nThe model's answer includes a dance competition (both attending and hosting) and networking events. For the fair, it lists \"performed at a nearby festival,\" which is a close equivalent to a fair, though not identical. The remaining items are extra detail that doesn't contradict the gold answer.\n\nA festival and a fair are plausibly the same event in the conversation, so the model covers all three main items.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 31, "correct": false, "raw": "The gold answer is six months, and the model says about 5 months. Jan 19 to June 20 is actually about 5 months, but the model's stated duration differs from the gold answer of six months. This is a different figure, so it is wrong.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 42, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 49, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 55, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 53, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 59, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 65, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 54, "correct": true, "raw": "The gold answer says the store is doing great. The model answer says it's growing, with press attention and a new website. That conveys a positive status, which is consistent with \"doing great.\" The details are extra but harmless, and \"growing\" fits \"great.\" It's a paraphrase in spirit, though less direct.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 60, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 62, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 68, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 57, "correct": false, "raw": "The gold answer lists three pieces of advice: build relationships with customers, create a strong brand image, and stay positive. The model's answer gives a different set: create content and manage social media, plus marketing, networking, and staying resilient.\n\nOnly \"staying resilient\" loosely matches \"stay positive\". Networking is somewhat close to building relationships, but it is not the same as building relationships with customers. Nothing in the model's answer matches the strong brand image point directly. Marketing and social media content are only tangentially related to it. The model did not give most of the main items from the gold answer.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 71, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 61, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 72, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 63, "correct": true, "raw": "The model's answer gives \"fashion internship,\" which matches the gold answer. It adds a note about the date discrepancy, but the core fact is the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 66, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 80, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "oneshot_L2", "qid": 76, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 8, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 0, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 7, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 2, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 11, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 0, "correct": false, "raw": "The gold answer is a specific date, 19 January 2023. The model answer gives only the month and year, January 2023. That is consistent with the gold answer but less specific, and it does not state the day. Since the gold answer is a specific date, the model's answer does not fully state the same fact.\n\nWhether a month-only answer counts depends on how strict the grading is. The instructions say a different date is wrong, and they accept different formats of the same date. A missing day is a loss of the key detail, so I mark it WRONG.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 12, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 4, "correct": false, "raw": "The gold answer has two parts: Jon lost his job, and he decided to start his own business to share his passion. The model's answer only gives the second part, sharing his love of dance, and adds a motive about giving people a place to express themselves. It leaves out the job loss, which is the actual trigger for starting the studio.\n\nThe question asks \"why\", and the main reason in the gold answer is the job loss combined with the passion. The model gives only the passion side. That is a partial match, and it omits the key fact. I'll lean toward WRONG.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 6, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 3, "correct": true, "raw": "The gold answer says they both lost their jobs and decided to start their own businesses. The model answer includes that both lost their jobs and are building businesses (Jon's dance studio, Gina's online clothing store). That matches the main facts, and the extra details are harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 5, "correct": false, "raw": "The gold answer has three elements: by the water, natural light, and Marley flooring. The model mentions only Marley flooring, plus other details (sharing the joy of dance) that aren't in the gold answer. It omits the water location and natural light, which are main items.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 10, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 16, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 22, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 18, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 21, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 17, "correct": false, "raw": "The gold answer gives two reasons: Gina loved fashion trends and finding unique pieces, and she lost her job, which pushed her to start her own business. The model's answer says it was a long-held dream to blend dance and fashion. That is a different reason. It leaves out the job loss and does not mention her love of fashion trends or unique pieces, apart from a loose link to fashion.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 19, "correct": true, "raw": "The model's answer gives \"10 May\" and leaves out the year 2023. The gold answer is \"10 May, 2023\". The day and month match, and the year is only missing, not contradicted. The question doesn't depend on the year, so I'll accept it as the same fact.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 26, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 15, "correct": true, "raw": "The model's answer says it's unconfirmed but infers May 2023 as most likely, based on \"next month\" said in April 2023. The gold answer is May 2023. The model does land on May 2023 as the likely date, though hedged.\n\nDoes it state the same fact? It states \"most likely May 2023.\" That matches the gold answer, although with hedging. The hedge about confirmation doesn't contradict the date. I'd lean CORRECT.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 20, "correct": true, "raw": "The model states the date 27 May 2023, which matches the gold answer. It adds a caveat about whether it was the same internship, but the core date is the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 25, "correct": true, "raw": "The gold answer lists one-on-one mentoring and training for dancers, plus workshops and classes for local schools and centers.\n\nThe model's answer includes one-on-one mentoring and workshops for local schools. It also adds a dance space for self-expression and services for young dancers, which are harmless extras. It does not mention centers or classes, but the main items match: mentoring and workshops for schools.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 29, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 28, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 14, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 31, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 23, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 27, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 32, "correct": true, "raw": "The gold answer is June 2023. The model's answer says mid-June 2023, reported on 21 June, which falls within June 2023 and is consistent with the gold answer. The extra detail is harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 24, "correct": true, "raw": "The gold answer lists fair, networking events, and dance competition. The model lists a fair, networking events, and a competition he was hosting (the dance competition is not explicitly \"dance\" but the competition matches). It also adds workshops and a grand opening as extras.\n\nThe main items are covered. The \"competition\" is not specified as dance, but it is plausibly the same. Mostly matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 36, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 42, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 33, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 34, "correct": true, "raw": "The gold answer is \"July 2023\". The model answer gives \"9 July 2023\" as the date she reported it, and adds that the context doesn't say when recognition began. It does point to July 2023, but with a hedge.\n\nThe key fact is July 2023, and the model's answer includes that, with a specific day inside that month. The hedge is a little awkward, but the answer still commits to July 2023 as the date. A grader would likely accept this as matching.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 35, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 49, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 53, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 54, "correct": true, "raw": "The gold answer says the store is doing great. The model answer describes rising sales, new promotions, a local artist partnership, a hoodie line, and a new ordering website. All of this indicates the store is doing well, so it conveys the same basic fact, with extra detail. The extra detail could be unverified, but it is consistent with the store doing great.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 55, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 58, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 61, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 60, "correct": false, "raw": "The gold answer is \"happy\". The model says \"His passion and escape\", which does not state that dance makes him happy. It describes something different (passion and escape) rather than the emotional result of happiness.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 65, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 62, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 57, "correct": false, "raw": "The gold answer lists three items: build relationships with customers, create a strong brand image, and stay positive. The model's answer mentions social media and influencer collaborations plus staying passionate, focused, and resilient. It does not mention customer relationships or brand image. \"Resilient\" and \"passionate\" partly resemble staying positive, but the main items are missing.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 68, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 69, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 59, "correct": true, "raw": "The gold answer says Gina is passionate about dance and fashion. The model answer says a long-held dream to blend dance and fashion. These are not identical: the model gives a dream as the reason, while the gold gives passion. Both tie the combination to a deep personal interest in dance and fashion, so the meaning is close. \"Long-held dream\" does not strictly state \"passion,\" but it implies strong interest in both. This looks like an acceptable paraphrase, though not an exact one.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 64, "correct": true, "raw": "The gold answer says \"fashion department of an international company.\" The model says \"At an international company.\" This omits \"fashion department\" but captures the main fact, the international company. The question asks \"where,\" and the model gives the company, but it leaves out the department. That is a minor omission, since the internship is already described as a fashion internship, so the location is essentially the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 77, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 63, "correct": true, "raw": "The gold answer is \"fashion internship\". The model's answer says it was a fashion internship, with extra details (part-time, international company) and a note about the date. The core fact matches: a fashion internship.\n\nThe date remark says it was reported 27 May rather than 23 May. This doesn't change the type of experience, which is what the question asks. The extra detail is mostly harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 71, "correct": false, "raw": "The gold answer is \"amazing,\" a simple positive descriptor. The model's answer says Gina calls it \"a creative space for dancers that would become a go-to spot for self-expression.\" That is a different description and doesn't mention \"amazing.\" It's positive, but it states a different fact than the gold answer.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 66, "correct": true, "raw": "The gold answer is \"One-on-one mentoring and training.\" The model's answer lists \"One-on-one mentoring\" first, which matches the main part of the gold answer. It leaves out \"training\" but adds other items. Mentoring is the core element, and the added items are probably harmless detail, though they could be hallucinated. Judged against the gold answer, the model gives the main item.\n\n\"Training\" is missing, but \"one-on-one mentoring\" covers most of the gold answer. The gold answer is a single compound item, \"mentoring and training,\" so omitting \"training\" is a small gap. I lean toward CORRECT.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 5, "correct": false, "raw": "The gold answer says the studio should be by the water, with natural light and Marley flooring. The model says downtown instead of by the water. That is a different location, so it contradicts a key element of the gold answer. Natural light and Marley flooring match, but the location does not.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 72, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 80, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 81, "correct": true, "raw": "The gold answer says Gina offers to help make content and manage Jon's social media accounts. The model's answer says she offered to help with content and social media, which covers both the content and the social media help. It adds Instagram, TikTok, and influencer collaborations as extra detail. \"Help with ... social media\" is close enough to \"managing accounts,\" so the main fact matches.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 6, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 2, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 7, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 8, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L0", "qid": 76, "correct": true, "raw": "The gold answer is \"excitement.\" The model says the sentiment is \"positive and supportive,\" plus that Gina plans to attend. That is a positive sentiment, but \"supportive\" and attending are not quite the same as excitement. The core idea of a favorable, positive feeling toward the event is roughly consistent with excitement, though it is less specific.\n\nWhether this counts as the same fact is borderline. \"Positive\" is a general match, and a grader would likely accept it as a paraphrase of a positive sentiment like excitement. The model doesn't say \"excited\" or \"eager,\" but \"positive\" in the context of a grand opening conveys the same general sentiment.\n\nI lean toward accepting.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 15, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 11, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 3, "correct": true, "raw": "The gold answer: they lost their jobs and decided to start their own businesses. The model answer says both lost their jobs, both run their own businesses, and adds extra details (January 2023, favorite style). The core fact matches: lost jobs and started/run own businesses. The extra details are harmless unless they contradict, and nothing here suggests a contradiction.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 12, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 10, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 16, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 22, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 21, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 19, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 20, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 17, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 27, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 14, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 29, "correct": false, "raw": "The gold answer lists two cities: Paris and Rome. The model answered only Rome, so it left out Paris, one of the main items.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 28, "correct": true, "raw": "The model's answer, \"week before 19 June 2023,\" falls in June 2023 (roughly 12-18 June), which is consistent with the gold answer of June 2023.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 24, "correct": false, "raw": "The gold answer lists three items: fair, networking events, dance competition. The model's answer includes the fair and networking events (plus a grand opening), but omits the dance competition.\n\nThe grading rule says the model must give the main items. The dance competition is one of three, so omitting it means the answer is incomplete.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 4, "correct": true, "raw": "The gold answer has two parts: he lost his job, and he decided to start his own business to share his passion. The model's answer includes the job loss and mentions a lifelong love of dance, but it never says he started the studio to share that passion. It states the facts without linking them to the decision to start the studio, though the cause is implied. The key reason, losing his job, is present, and the passion is hinted at through dancing since childhood.\n\nThis is borderline. The model gives the main cause (job loss) and the passion background, so it conveys the same basic fact.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 26, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 23, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 25, "correct": false, "raw": "WRONG\n\nThe gold answer lists two offerings: one-on-one mentoring and training, plus workshops and classes for local schools and centers. The model gave only the mentoring, so it misses the second main item.", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 18, "correct": false, "raw": "The gold answer is \"Yes\" for both Jon and Gina. The model says Jon yes, but for Gina says \"not explicitly stated,\" so it does not affirm that both start businesses out of what they love. This differs from the gold answer.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 33, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 34, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 31, "correct": false, "raw": "The gold answer is six months, and the model says about 5 months. These are different durations, so the model's answer does not match.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 32, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 36, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 42, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 40, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 39, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 46, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 35, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 55, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 54, "correct": true, "raw": "The gold answer says the store is doing great. The model says sales are up because new offers boosted them, which means the store is doing well. That matches in substance, and the extra detail is harmless.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 53, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 49, "correct": false, "raw": "The gold answer lists two feelings, \"cozy and comfortable.\" The model gave only \"Cozy,\" which covers one of the two, so it is missing \"comfortable.\" Because the gold answer has several items and the model must give the main ones, this is incomplete. However, \"cozy\" and \"comfortable\" are near-synonyms, so the model's answer is close in meaning. The model still missed the second item, so I mark it WRONG.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 61, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 59, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 57, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 60, "correct": false, "raw": "The gold answer says dance makes Jon \"happy.\" The model says it \"keeps him going,\" which is about motivation or perseverance rather than happiness. It's a different fact, though loosely related.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 69, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 65, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 68, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 62, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 66, "correct": true, "raw": "The gold answer is \"One-on-one mentoring and training\", while the model says only \"One-on-one mentoring.\" The model captures the main item (one-on-one mentoring) but omits \"training.\" The two are closely linked, and \"mentoring\" is the primary offering. However, the gold lists two items, and the model gives only one of them. The core fact, one-on-one mentoring, is present, and \"training\" is arguably part of the same offering, so I judge it acceptable.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 72, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 58, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 77, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 63, "correct": true, "raw": "The gold answer is \"fashion internship\". The model says \"A part-time fashion internship,\" which matches the core fact. It adds a note that the context dates it to 27 May rather than 23 May. That is a quibble about the date, not a change to the answer to the question asked (what kind of experience). The main fact, a fashion internship, matches.\n\nThe extra date claim contradicts the question's premise, but the answer to what was asked is still the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 71, "correct": false, "raw": "The gold answer is \"amazing\", but the model said \"A go-to spot for self-expression.\" These are different descriptions. The model's answer doesn't state that Gina calls the studio amazing. It could be a different quote from the conversation, but it doesn't match the gold.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 2, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 76, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 1, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 80, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 6, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 8, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 7, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 3, "correct": true, "raw": "The model's answer says both lost their jobs and started their own businesses, which matches the gold answer. It also adds a date (January 2023), which is extra detail and not necessarily contradicted by the gold answer. That detail could be inaccurate, but nothing in the gold answer conflicts with it, so the core fact is the same.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L1", "qid": 81, "correct": true, "raw": "The gold answer has two parts: helping with making content and managing his social media accounts. The model answer mentions only managing social media, so it omits the content creation part. The main offer, managing his accounts, is there, though. The question is whether the omission counts as missing a main item.\n\nThe gold lists \"making content and managing accounts.\" The model gives only one of the two. This is borderline, but the core idea of managing his social media is captured. I lean toward CORRECT, since \"managing social media\" is the core offer, though the omission of content creation could be penalized.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 5, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 9, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 4, "correct": false, "raw": "The gold answer has two parts: Jon lost his job, and he decided to start his own business to share his passion. The model's answer gives only the passion and sharing part. It leaves out the job loss, which is the actual trigger for starting the studio, so it misses a main element of the gold answer.\n\nStill, the core motivation, sharing his passion for dance, is present. But the question asks \"why did he decide to start,\" and the gold answer's distinguishing fact is the job loss. The model's answer is a partial match and would be a plausible guess without that fact.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 11, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 13, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 12, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 17, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 16, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 21, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 19, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 10, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 14, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 15, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 22, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 20, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 23, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 29, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 26, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 28, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 25, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 18, "correct": false, "raw": "The gold answer is a plain \"Yes\" for both Jon and Gina. The model confirms Jon but says Gina's passion isn't stated, which hedges on Gina and doesn't clearly affirm the claim for her. The question asks about both, so the answer is only partly aligned with the gold.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 35, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 24, "correct": false, "raw": "The gold answer lists three events: a fair, networking events, and a dance competition. The model's answer mentions the dance competition and a studio opening night. It leaves out the fair and the networking events, and it adds an opening night that the gold answer does not include. Only one of the three gold items is covered, so the main ones are missing.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 32, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 27, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 33, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 38, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 37, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 39, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 30, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 31, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 42, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 36, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 40, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 41, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 44, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 45, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 46, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 43, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 47, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 49, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 51, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 50, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 56, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 53, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 55, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 48, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 34, "correct": true, "raw": "Gold: July 2023. Model: the week before 9 July 2023 (roughly late June to early July 2023). This is a relative date derived from the conversation; the gold answer likely abstracts it as July 2023. The model's answer says \"week before 9 July 2023\", which would be about 2 July, which falls in July 2023, though it hedges with \"late June to early July\". The core match is mostly the same, but the hedge includes June. The specific \"week before 9 July\" would be July 2-8, so it is in July 2023. I'd accept.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 58, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 52, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 61, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 59, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 54, "correct": false, "raw": "The gold answer says the store is doing great. The model answer gives facts about when the store opened and a website launch, but does not state how the store is doing. It doesn't say the store is doing great or well. The launch of a website might imply growth, but it doesn't state the same fact.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 65, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 62, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 64, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 60, "correct": false, "raw": "The gold answer is \"happy\". The model answer, \"Keeps him going,\" says dance sustains or motivates him, which is a different fact from making him happy. It doesn't state happiness.\n\nWRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 57, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 67, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 66, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 68, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 70, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 69, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 77, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 63, "correct": true, "raw": "The model's answer states \"fashion internship,\" which matches the gold answer. It adds a remark that the record shows 27 May rather than 23 May, but that is extra detail that doesn't contradict the core fact being asked (the type of experience). The date discrepancy is a quibble with the question's premise, not a change to the answer.\n\nCORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 73, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 78, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 74, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 80, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 75, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 72, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 76, "correct": false, "raw": "WRONG\n\nThe gold answer is \"excitement.\" The model said \"hopeful and determined,\" which is a different sentiment, and its supporting quote is about working hard rather than being excited.", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 81, "correct": true, "raw": "CORRECT", "stop_reason": "end_turn"}
+{"cond": "incr_L2", "qid": 71, "correct": false, "raw": "WRONG", "stop_reason": "end_turn"}

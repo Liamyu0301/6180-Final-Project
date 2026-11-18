@@ -96,8 +96,10 @@ def call(model, system, content, max_tokens, tag):
     if _spent > SPEND_CAP_USD:
         raise RuntimeError("spend cap reached: $%.2f" % _spent)
     t0 = time.time()
+    # `content` is one user turn, or a full list of turns when a draft is sent back for revision.
+    is_turns = isinstance(content, list) and content and "role" in content[0]
     resp = client.messages.create(model=model, max_tokens=max_tokens, system=system,
-                                  messages=[{"role": "user", "content": content}])
+                                  messages=content if is_turns else [{"role": "user", "content": content}])
     text = "".join(b.text for b in resp.content if b.type == "text").strip()
     u = resp.usage
     cr = getattr(u, "cache_read_input_tokens", 0) or 0
@@ -138,35 +140,51 @@ FORMAT_RULES = {
 }
 
 
-def compress_once(fmt, budget, body, tag):
+def compress_once(fmt, budget, body, tag, tok_per_word=1.35):
     """Ask for a memory within the token budget.
 
-    The model cannot count tokens exactly, so the length it is asked for is rescaled after each
-    attempt by how far the last one missed (up to 6 attempts). A memory is accepted only when its
-    measured token count is between 85% and 105% of the budget: too long is unfair to the other
-    formats, and too short throws information away for good in incremental mode. The lower bound
-    is dropped while the source itself is still shorter than about 1.3 budgets (early sessions).
+    A memory is accepted only when its measured token count is between 85% and 105% of the budget:
+    too long is unfair to the other formats, and too short throws information away for good in
+    incremental mode. The lower bound is dropped while the source itself is still shorter than
+    about 1.3 budgets (early sessions).
+
+    The model cannot count tokens, so a draft that misses is sent back with its measured size and a
+    request to cut or extend it by a percentage (up to 6 attempts). Revising the same draft
+    converges; asking for a fresh memory with a different word count does not. `tok_per_word` is the
+    ratio seen in the last accepted memory of this format, used to turn the budget into a word count.
     """
     hi = budget * 1.05
     lo = budget * 0.85 if len(body) * TOKENS_PER_CHAR >= budget * 1.3 else 0
-    ask, tries = budget * 0.9, []
+    target = budget * 0.95
+    first = {"role": "user", "content": "%s\n\nLENGTH: write close to %d words. Do not go over, and do not stop far "
+             "short of it.\n\n%s\n\nOutput only the memory." % (FORMAT_RULES[fmt], int(target / tok_per_word), body)}
+    turns, tries = [first], []
     for attempt in range(1, 7):
-        limit = "LENGTH: write close to %d words. Do not go over, and do not stop far short of it." % int(ask / 1.35)
-        prompt = "%s\n\n%s\n\n%s\n\nOutput only the memory." % (FORMAT_RULES[fmt], limit, body)
-        text, stop = call(WORKER, COMPRESS_SYSTEM, prompt, 6000, dict(tag, attempt=attempt))
-        if stop != "end_turn":
-            raise RuntimeError("compression stopped with %s (%s)" % (stop, tag))
+        text, stop = call(WORKER, COMPRESS_SYSTEM, turns, 12000, dict(tag, attempt=attempt))
+        if stop != "end_turn" or not text:
+            continue                      # cut off or empty: a failed attempt, ask again
         n = count_tokens(text)
         tries.append((text, n))
         if lo <= n <= hi:
             break
-        ask = ask * budget * 0.95 / n
+        change = round(abs(target - n) / n * 100)
+        if n > hi:
+            ask = ("That memory is %d tokens and the limit is %d. Cut it by about %d%%: drop the least important "
+                   "details and keep the format." % (n, round(hi), change))
+        else:
+            ask = ("That memory is %d tokens but about %d are available. Make it about %d%% longer by adding more "
+                   "of the important details from the source above (exact facts, dates, names, changes). Keep the "
+                   "format." % (n, round(target), change))
+        turns = [first, {"role": "assistant", "content": text},
+                 {"role": "user", "content": ask + " Output only the full revised memory."}]
     else:
+        if not tries:
+            raise RuntimeError("no usable memory after 6 attempts (%s)" % tag)
         # No attempt landed in range: take the one closest to it, preferring not to exceed the budget.
         within = [t for t in tries if t[1] <= hi]
         text, n = max(within, key=lambda t: t[1]) if within else min(tries, key=lambda t: t[1])
     return {"text": text, "tokens": n, "attempts": attempt, "in_range": lo <= n <= hi,
-            "over_budget": n > hi, "under_budget": n < lo}
+            "over_budget": n > hi, "under_budget": n < lo, "tok_per_word": round(n / max(1, len(text.split())), 3)}
 
 
 def step_compress(which):
@@ -196,12 +214,14 @@ def step_compress(which):
         rounds = sorted([m for m in read_jsonl("memories.jsonl") if m["mode"] == "incr" and m["fmt"] == fmt],
                         key=lambda m: m["round"])
         memory = rounds[-1]["text"] if rounds else ""
+        ratio = rounds[-1].get("tok_per_word", 1.35) if rounds else 1.35
         for s in sessions[len(rounds):]:
             body = ("CURRENT MEMORY:\n%s\n\nNEW SESSION:\n%s\n\nWrite the full updated memory now. Keep what still "
                     "matters from the current memory and add what matters from the new session."
                     % (memory or "(empty)", render_session(s)))
-            m = compress_once(fmt, budget, body, {"step": "compress", "mode": "incr", "fmt": fmt, "round": s["idx"]})
-            memory = m["text"]
+            m = compress_once(fmt, budget, body, {"step": "compress", "mode": "incr", "fmt": fmt, "round": s["idx"]},
+                              ratio)
+            memory, ratio = m["text"], m["tok_per_word"]
             append("memories.jsonl", dict(m, mode="incr", fmt=fmt, round=s["idx"]))
             print("incr", fmt, "round", s["idx"], m["tokens"], "tokens")
 
@@ -211,8 +231,12 @@ def step_compress(which):
     if which in ("incr", "all"):
         jobs += [(incremental, f) for f in FORMATS]
     with ThreadPoolExecutor(6) as ex:
-        for fut in [ex.submit(fn, f) for fn, f in jobs]:
-            fut.result()
+        futures = [(fn.__name__, f, ex.submit(fn, f)) for fn, f in jobs]
+    failed = [(name, f, fut.exception()) for name, f, fut in futures if fut.exception()]
+    for name, f, err in failed:           # report every failed chain, not just the first
+        print("FAILED", name, f, repr(err))
+    if failed:
+        raise RuntimeError("%d compression job(s) failed" % len(failed))
 
 
 def final_memories():

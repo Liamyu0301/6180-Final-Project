@@ -1,0 +1,70 @@
+=== COMPRESS INCR 19:25:30
+history 19274 tokens, budget 1927 tokens
+incr L2 round 1 1919 tokens
+incr L0 round 1 1573 tokens
+incr L1 round 1 915 tokens
+incr L0 round 2 1897 tokens
+incr L1 round 2 1744 tokens
+incr L2 round 2 1834 tokens
+incr L0 round 3 1797 tokens
+incr L1 round 3 1725 tokens
+incr L2 round 3 1658 tokens
+incr L0 round 4 1944 tokens
+incr L1 round 4 2002 tokens
+incr L0 round 5 1986 tokens
+incr L2 round 4 1994 tokens
+incr L1 round 5 1755 tokens
+incr L0 round 6 1984 tokens
+incr L2 round 5 1656 tokens
+incr L1 round 6 1804 tokens
+incr L0 round 7 2002 tokens
+incr L1 round 7 1781 tokens
+incr L0 round 8 1734 tokens
+incr L0 round 9 1843 tokens
+incr L1 round 8 1952 tokens
+incr L2 round 6 1603 tokens
+incr L1 round 9 1969 tokens
+incr L2 round 7 1622 tokens
+incr L0 round 10 1993 tokens
+incr L1 round 10 1761 tokens
+incr L0 round 11 1991 tokens
+incr L1 round 11 1709 tokens
+incr L2 round 8 1728 tokens
+incr L0 round 12 1876 tokens
+incr L1 round 12 1745 tokens
+incr L2 round 9 1660 tokens
+incr L0 round 13 2018 tokens
+incr L2 round 10 1798 tokens
+incr L1 round 13 1948 tokens
+incr L2 round 11 1819 tokens
+incr L0 round 14 1913 tokens
+incr L2 round 12 1886 tokens
+incr L1 round 14 1696 tokens
+incr L0 round 15 1959 tokens
+incr L2 round 13 1802 tokens
+incr L1 round 15 1782 tokens
+incr L0 round 16 1942 tokens
+incr L1 round 16 2006 tokens
+incr L2 round 14 1881 tokens
+incr L0 round 17 1970 tokens
+incr L1 round 17 1954 tokens
+incr L2 round 15 1917 tokens
+incr L1 round 18 1973 tokens
+incr L2 round 16 2014 tokens
+incr L0 round 18 1972 tokens
+incr L1 round 19 2006 tokens
+incr L2 round 17 1771 tokens
+incr L0 round 19 2009 tokens
+incr L2 round 18 1760 tokens
+incr L2 round 19 1579 tokens
+spent this run: $0.264
+=== ANSWER 19:33:55
+answering 243 items
+spent this run: $0.020
+=== JUDGE 19:34:26
+judging 243 answers
+spent this run: $0.179
+=== ATTRIBUTE 19:35:04
+attributing 302 wrong answers
+spent this run: $0.549
+=== DONE 19:36:16
