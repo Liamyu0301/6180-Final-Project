@@ -1,0 +1,77 @@
+=== STAGE 1 18:35:50
+answering 324 items
+spent this run: $0.042
+judging 324 answers
+spent this run: $0.255
+=== STAGE 2 18:37:25
+history 19274 tokens, budget 1927 tokens
+incr L1 round 1 790 tokens
+incr L2 round 1 1155 tokens
+incr L0 round 1 927 tokens
+incr L1 round 2 1276 tokens
+incr L0 round 2 1748 tokens
+incr L2 round 2 1752 tokens
+incr L1 round 3 1747 tokens
+incr L0 round 3 1860 tokens
+incr L1 round 4 1579 tokens
+incr L2 round 3 1802 tokens
+incr L0 round 4 2171 tokens
+incr L2 round 4 1789 tokens
+incr L1 round 5 2025 tokens
+incr L0 round 5 1796 tokens
+incr L1 round 6 1944 tokens
+incr L2 round 5 1862 tokens
+incr L0 round 6 2044 tokens
+incr L0 round 7 1452 tokens
+incr L1 round 7 1711 tokens
+incr L2 round 6 1667 tokens
+incr L0 round 8 2011 tokens
+incr L1 round 8 1995 tokens
+incr L2 round 7 2134 tokens
+incr L0 round 9 1629 tokens
+incr L2 round 8 1737 tokens
+incr L0 round 10 2100 tokens
+incr L1 round 9 2118 tokens
+incr L0 round 11 1774 tokens
+incr L2 round 9 918 tokens
+incr L1 round 10 1554 tokens
+incr L2 round 10 1659 tokens
+incr L1 round 11 1987 tokens
+incr L0 round 12 1905 tokens
+incr L2 round 11 2014 tokens
+incr L1 round 12 1923 tokens
+incr L0 round 13 1891 tokens
+incr L2 round 12 1388 tokens
+incr L1 round 13 2143 tokens
+incr L0 round 14 2226 tokens
+incr L2 round 13 1985 tokens
+incr L0 round 15 1615 tokens
+incr L2 round 14 1736 tokens
+incr L1 round 14 2199 tokens
+incr L0 round 16 2057 tokens
+incr L2 round 15 1701 tokens
+incr L1 round 15 2280 tokens
+incr L0 round 17 1972 tokens
+incr L2 round 16 2159 tokens
+incr L1 round 16 1267 tokens
+incr L1 round 17 1889 tokens
+incr L0 round 18 1541 tokens
+incr L2 round 17 1677 tokens
+incr L0 round 19 2009 tokens
+incr L1 round 18 2008 tokens
+incr L2 round 18 1819 tokens
+incr L1 round 19 1874 tokens
+incr L2 round 19 1852 tokens
+spent this run: $0.392
+answering 243 items
+spent this run: $0.023
+judging 243 answers
+spent this run: $0.188
+=== STAGE 3 18:52:22
+answering 81 items
+spent this run: $0.026
+judging 81 answers
+spent this run: $0.063
+attributing 285 wrong answers
+spent this run: $0.552
+=== DONE 18:54:01

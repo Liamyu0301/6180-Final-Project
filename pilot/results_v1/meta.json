@@ -1,0 +1,10 @@
+{
+ "sample": "conv-30",
+ "sessions": 19,
+ "history_tokens": 19274,
+ "budget_tokens": 1927,
+ "history_chars": 52146,
+ "worker": "claude-haiku-5-5",
+ "judge": "claude-sonnet-5-5",
+ "ratio": 10
+}
