@@ -1,0 +1,6 @@
+{"id": "msgbatch_01G1E3z4vGd4R2GZjQZ46NJz", "step": "answer", "n": 320, "bytes": 26874552, "created": "2026-11-20 16:47:43"}
+{"id": "msgbatch_01G1E3z4vGd4R2GZjQZ46NJz", "step": "answer", "collected": true, "ok": 320, "not_saved": 0}
+{"id": "msgbatch_01U9Z7U1rkRMmWyNT1WTp4sZ", "step": "judge", "n": 320, "bytes": 385934, "created": "2026-11-20 16:51:47"}
+{"id": "msgbatch_01U9Z7U1rkRMmWyNT1WTp4sZ", "step": "judge", "collected": true, "ok": 320, "not_saved": 0}
+{"id": "msgbatch_01SsBx6eYg4YXUgYWnqZjsQK", "step": "attribute", "n": 65, "bytes": 1590289, "created": "2026-11-20 16:53:51"}
+{"id": "msgbatch_01SsBx6eYg4YXUgYWnqZjsQK", "step": "attribute", "collected": true, "ok": 65, "not_saved": 0}

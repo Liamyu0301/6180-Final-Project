@@ -2,3 +2,6 @@
 __pycache__/
 .DS_Store
 pilot/results_smoke/
+data/longmemeval/
+*.log
+*.tmp
