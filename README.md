@@ -251,6 +251,7 @@ Setup and deviations from the main experiment (all in `lme/run.py`; nothing in `
 | `lme/results_pilot10x/` | The abandoned 10x pilot on three LongMemEval questions. Not results. |
 | `pilot/results/` | Pilot, second run (2026-11-17). |
 | `pilot/results_v1/`, `pilot/results_v2_aborted/` | Pilot, first run and an aborted attempt. Superseded. |
+| `poster/` | The poster, first draft (2026-11-24): `poster.html` is the source, `poster.png` a rendering of it. Its numbers are the ones in this README. |
 
 `main/judge_check_conv30.csv` is a sheet of 50 randomly chosen conv-30 answers with the judge's verdict
 left out, for labelling by hand.

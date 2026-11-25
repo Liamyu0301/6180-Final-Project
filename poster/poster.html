@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory compression poster</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#12161C}a:hover{color:#1C5FD4}
+</style>
+</helmet>
+<div style="width: 4608px; height: 3456px; box-sizing: border-box; padding: 112px 120px 96px 120px; display: flex; flex-direction: column; gap: 52px; background: #FFFFFF; color: #12161C; font-family: Inter, system-ui, sans-serif; font-size: 40px; line-height: 56px">
+
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-end; gap: 96px">
+<div style="display: flex; flex-direction: column; gap: 28px; width: 3180px">
+<div style="font-size: 38px; line-height: 48px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: #4A5361">CS 6180 Foundations of Generative AI · Fall 2026 · Northeastern University</div>
+<h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 158px; line-height: 164px; letter-spacing: -3px; text-wrap: balance">Does memory format matter under repeated compression?</h1>
+<div style="font-size: 62px; line-height: 82px; font-weight: 500; text-wrap: pretty"><span style="color: #D9480F; font-weight: 700">Only when the memory is written once.</span> Rewriting it after every session costs 6 to 21 points of accuracy in every format, and erases the gap between prose and JSON.</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-end; text-align: right">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 58px; line-height: 72px; font-weight: 600">Cheng Xin · Mengli Yu · Jia Song</div>
+<div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 36px; line-height: 48px; color: #4A5361">github.com/Liamyu0301/6180-Final-Project</div>
+</div>
+</div>
+
+<div style="height: 8px; background: #12161C"></div>
+
+<div style="display: grid; grid-template-columns: 1180px 1880px 1180px; column-gap: 64px; flex-grow: 1">
+
+<div style="display: flex; flex-direction: column; gap: 44px">
+
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 66px; line-height: 80px; font-weight: 700"><span style="color: #D9480F">1</span> The problem</h2>
+<div style="text-wrap: pretty">A chat agent cannot keep a long conversation in its context forever. It compresses the history into a short <b>memory</b>, then rewrites that memory again and again as the conversation grows.</div>
+<div style="text-wrap: pretty; font-weight: 600">How much does it forget, and does the format of the memory change that?</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 66px; line-height: 80px; font-weight: 700"><span style="color: #D9480F">2</span> Method</h2>
+
+<div style="display: flex; flex-direction: row; gap: 32px; align-items: flex-start">
+<div style="flex-shrink: 0; width: 76px; height: 76px; border-radius: 38px; background: #12161C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">1</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 46px; line-height: 60px; font-weight: 700">Take a long conversation</div>
+<div style="font-size: 36px; line-height: 50px; color: #2B323C">10 LoCoMo conversations, 19 to 32 sessions and 19K to 36K tokens each.</div>
+</div>
+</div>
+
+<svg aria-hidden="true" width="76" height="36" viewBox="0 0 76 36" style="width: 76px; height: 36px; fill: none; stroke: #8A93A0; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round"><path d="M 22 8 L 38 26 L 54 8"></path></svg>
+
+<div style="display: flex; flex-direction: row; gap: 32px; align-items: flex-start">
+<div style="flex-shrink: 0; width: 76px; height: 76px; border-radius: 38px; background: #12161C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">2</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 46px; line-height: 60px; font-weight: 700">Compress it into a memory</div>
+<div style="font-size: 36px; line-height: 50px; color: #2B323C">Claude Haiku 5.5 writes a memory of 1/4, 1/10 or 1/20 of the history's tokens, in one of 3 formats. Either <b>once</b>, from the whole history, or <b>rewritten after every session</b> (19 to 32 rewrites) to the same final size.</div>
+</div>
+</div>
+
+<svg aria-hidden="true" width="76" height="36" viewBox="0 0 76 36" style="width: 76px; height: 36px; fill: none; stroke: #8A93A0; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round"><path d="M 22 8 L 38 26 L 54 8"></path></svg>
+
+<div style="display: flex; flex-direction: row; gap: 32px; align-items: flex-start">
+<div style="flex-shrink: 0; width: 76px; height: 76px; border-radius: 38px; background: #12161C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">3</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 46px; line-height: 60px; font-weight: 700">Answer from the memory alone</div>
+<div style="font-size: 36px; line-height: 50px; color: #2B323C">Haiku answers 1,540 questions about the conversation and sees only the memory.</div>
+</div>
+</div>
+
+<svg aria-hidden="true" width="76" height="36" viewBox="0 0 76 36" style="width: 76px; height: 36px; fill: none; stroke: #8A93A0; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round"><path d="M 22 8 L 38 26 L 54 8"></path></svg>
+
+<div style="display: flex; flex-direction: row; gap: 32px; align-items: flex-start">
+<div style="flex-shrink: 0; width: 76px; height: 76px; border-radius: 38px; background: #12161C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">4</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 46px; line-height: 60px; font-weight: 700">Judge every answer</div>
+<div style="font-size: 36px; line-height: 50px; color: #2B323C">Claude Sonnet 5.5 marks each answer right or wrong, and labels why each wrong answer was wrong.</div>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px; background: #F1F3F6; padding: 32px 36px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #4A5361">Two baselines</div>
+<div style="font-size: 36px; line-height: 50px"><b>Full history:</b> no compression, the ceiling.</div>
+<div style="font-size: 36px; line-height: 50px"><b>Retrieval:</b> BM25 picks raw turns for each question, filled to the same token budget as the memory.</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #4A5361">Three memory formats, same token budget</div>
+<div style="display: flex; flex-direction: row; gap: 24px; align-items: baseline">
+<div style="flex-shrink: 0; width: 300px; font-size: 40px; line-height: 50px; font-weight: 700; color: #D9480F">Prose</div>
+<div style="font-size: 36px; line-height: 50px">Free-form paragraphs.</div>
+</div>
+<div style="display: flex; flex-direction: row; gap: 24px; align-items: baseline">
+<div style="flex-shrink: 0; width: 300px; font-size: 40px; line-height: 50px; font-weight: 700; color: #1C5FD4">JSON</div>
+<div style="font-size: 36px; line-height: 50px">One object with <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 32px">facts, preferences, state_updates, timeline</span>.</div>
+</div>
+<div style="display: flex; flex-direction: row; gap: 24px; align-items: baseline">
+<div style="flex-shrink: 0; width: 300px; font-size: 40px; line-height: 50px; font-weight: 700; color: #0B4F4A">Anchors + summary</div>
+<div style="font-size: 36px; line-height: 50px">Word-for-word quotes for numbers, dates and names, then a short summary of the rest.</div>
+</div>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 36px">
+
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 66px; line-height: 80px; font-weight: 700"><span style="color: #D9480F">3</span> Results, against two baselines</h2>
+
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #4A5361">At 10x compression, % of 1,540 questions correct</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 4px; background: #F1F3F6; padding: 24px 32px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 128px; line-height: 136px; font-weight: 700">82.1</div>
+<div style="font-size: 34px; line-height: 44px; font-weight: 600">Baseline: full history</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; background: #F1F3F6; padding: 24px 32px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 128px; line-height: 136px; font-weight: 700; color: #4A5361">61.8</div>
+<div style="font-size: 34px; line-height: 44px; font-weight: 600">Baseline: retrieval</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; background: #F1F3F6; padding: 24px 32px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 128px; line-height: 136px; font-weight: 700; color: #D9480F">47.0</div>
+<div style="font-size: 34px; line-height: 44px; font-weight: 600">Best memory, written once</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; background: #F1F3F6; padding: 24px 32px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 128px; line-height: 136px; font-weight: 700; color: #D9480F">25.6</div>
+<div style="font-size: 34px; line-height: 44px; font-weight: 600">Same format, rewritten every session</div>
+</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px">
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 48px; line-height: 60px; font-weight: 700">Memory written once</div>
+<svg role="img" aria-label="Line chart. Memory written once: accuracy falls as compression rises from 4x to 20x. Prose 66.3, 47.0, 27.6. JSON 55.0, 35.9, 22.9. Anchors 54.0, 34.2, 20.8. Retrieval 67.5, 61.8, 55.6. Full history 82.1." viewBox="0 0 1000 830" style="width: 908px; height: 754px; font-family: Inter, system-ui, sans-serif">
+<g style="stroke: #D5D9E0; stroke-width: 3; fill: none"><path d="M150 40 H980 M150 184 H980 M150 328 H980 M150 472 H980 M150 616 H980"></path></g>
+<path d="M150 760 H980" style="stroke: #12161C; stroke-width: 4; fill: none"></path>
+<g style="font-size: 38px; fill: #4A5361; text-anchor: end"><text x="134" y="773">0</text><text x="134" y="629">20</text><text x="134" y="485">40</text><text x="134" y="341">60</text><text x="134" y="197">80</text><text x="134" y="53">100</text></g>
+<g style="font-size: 40px; fill: #12161C; text-anchor: middle; font-weight: 600"><text x="230" y="814">4x</text><text x="560" y="814">10x</text><text x="890" y="814">20x</text></g>
+<text transform="translate(36 400) rotate(-90)" style="font-size: 36px; fill: #4A5361; text-anchor: middle">Questions correct (%)</text>
+<path d="M150 168.9 H980" style="stroke: #12161C; stroke-width: 7; fill: none"></path>
+<text x="976" y="148" style="font-size: 38px; font-weight: 700; fill: #12161C; text-anchor: end">Full history 82.1</text>
+<g style="stroke: #5F6B7A; fill: none"><path d="M230 274 L560 315 L890 359.7" style="stroke-width: 6; stroke-dasharray: 16 12"></path><path d="M230 255.3 V289.1 M560 297 V330.2 M890 342.4 V373.4" style="stroke-width: 4"></path></g>
+<g style="fill: #5F6B7A; stroke: #FFFFFF; stroke-width: 3"><path d="M230 258 L245 285 L215 285 Z"></path><path d="M560 299 L575 326 L545 326 Z"></path><path d="M890 343.7 L905 370.7 L875 370.7 Z"></path></g>
+<text x="590" y="278" style="font-size: 38px; font-weight: 700; fill: #4A5361">Retrieval (BM25)</text>
+<g style="stroke: #0B4F4A; fill: none"><path d="M246 371.2 L576 513.8 L906 610.2" style="stroke-width: 6"></path><path d="M246 351.8 V389.2 M576 497.2 V528.9 M906 590.8 V626.1" style="stroke-width: 4"></path></g>
+<g style="fill: #0B4F4A; stroke: #FFFFFF; stroke-width: 3"><path d="M246 354.2 L263 371.2 L246 388.2 L229 371.2 Z"></path><path d="M576 496.8 L593 513.8 L576 530.8 L559 513.8 Z"></path><path d="M906 593.2 L923 610.2 L906 627.2 L889 610.2 Z"></path></g>
+<g style="stroke: #1C5FD4; fill: none"><path d="M230 364 L560 501.5 L890 595.1" style="stroke-width: 6"></path><path d="M230 343.8 V387 M560 479.9 V521.7 M890 582.2 V607.4" style="stroke-width: 4"></path></g>
+<g style="fill: #1C5FD4; stroke: #FFFFFF; stroke-width: 3"><rect x="217" y="351" width="26" height="26"></rect><rect x="547" y="488.5" width="26" height="26"></rect><rect x="877" y="582.1" width="26" height="26"></rect></g>
+<g style="stroke: #D9480F; fill: none"><path d="M214 282.6 L544 421.6 L874 561.3" style="stroke-width: 6"></path><path d="M214 253.8 V313.6 M544 388.5 V449.7 M874 549 V572.1" style="stroke-width: 4"></path></g>
+<g style="fill: #D9480F; stroke: #FFFFFF; stroke-width: 3"><circle cx="214" cy="282.6" r="14"></circle><circle cx="544" cy="421.6" r="14"></circle><circle cx="874" cy="561.3" r="14"></circle></g>
+</svg>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 48px; line-height: 60px; font-weight: 700">Memory rewritten after every session</div>
+<svg role="img" aria-label="Line chart. Memory rewritten after every session: all three formats are lower than when written once. Prose 48.4, 25.6, 16.7. JSON 47.7, 26.9, 15.5. Anchors 35.1, 22.0, 15.0. Retrieval 67.5, 61.8, 55.6. Full history 82.1." viewBox="0 0 1000 830" style="width: 908px; height: 754px; font-family: Inter, system-ui, sans-serif">
+<g style="stroke: #D5D9E0; stroke-width: 3; fill: none"><path d="M150 40 H980 M150 184 H980 M150 328 H980 M150 472 H980 M150 616 H980"></path></g>
+<path d="M150 760 H980" style="stroke: #12161C; stroke-width: 4; fill: none"></path>
+<g style="font-size: 38px; fill: #4A5361; text-anchor: end"><text x="134" y="773">0</text><text x="134" y="629">20</text><text x="134" y="485">40</text><text x="134" y="341">60</text><text x="134" y="197">80</text><text x="134" y="53">100</text></g>
+<g style="font-size: 40px; fill: #12161C; text-anchor: middle; font-weight: 600"><text x="230" y="814">4x</text><text x="560" y="814">10x</text><text x="890" y="814">20x</text></g>
+<text transform="translate(36 400) rotate(-90)" style="font-size: 36px; fill: #4A5361; text-anchor: middle">Questions correct (%)</text>
+<path d="M150 168.9 H980" style="stroke: #12161C; stroke-width: 7; fill: none"></path>
+<text x="976" y="148" style="font-size: 38px; font-weight: 700; fill: #12161C; text-anchor: end">Full history 82.1</text>
+<g style="stroke: #5F6B7A; fill: none"><path d="M230 274 L560 315 L890 359.7" style="stroke-width: 6; stroke-dasharray: 16 12"></path><path d="M230 255.3 V289.1 M560 297 V330.2 M890 342.4 V373.4" style="stroke-width: 4"></path></g>
+<g style="fill: #5F6B7A; stroke: #FFFFFF; stroke-width: 3"><path d="M230 258 L245 285 L215 285 Z"></path><path d="M560 299 L575 326 L545 326 Z"></path><path d="M890 343.7 L905 370.7 L875 370.7 Z"></path></g>
+<text x="590" y="278" style="font-size: 38px; font-weight: 700; fill: #4A5361">Retrieval (BM25)</text>
+<g style="stroke: #0B4F4A; fill: none"><path d="M246 507.3 L576 601.6 L906 652" style="stroke-width: 6"></path><path d="M246 482.1 V531.8 M576 579.3 V623.2 M906 641.9 V662.8" style="stroke-width: 4"></path></g>
+<g style="fill: #0B4F4A; stroke: #FFFFFF; stroke-width: 3"><path d="M246 490.3 L263 507.3 L246 524.3 L229 507.3 Z"></path><path d="M576 584.6 L593 601.6 L576 618.6 L559 601.6 Z"></path><path d="M906 635 L923 652 L906 669 L889 652 Z"></path></g>
+<g style="stroke: #1C5FD4; fill: none"><path d="M230 416.6 L560 566.3 L890 648.4" style="stroke-width: 6"></path><path d="M230 396.4 V437.4 M560 552.6 V579.3 M890 630.4 V668.6" style="stroke-width: 4"></path></g>
+<g style="fill: #1C5FD4; stroke: #FFFFFF; stroke-width: 3"><rect x="217" y="403.6" width="26" height="26"></rect><rect x="547" y="553.3" width="26" height="26"></rect><rect x="877" y="635.4" width="26" height="26"></rect></g>
+<g style="stroke: #D9480F; fill: none"><path d="M214 411.5 L544 575.7 L874 639.8" style="stroke-width: 6"></path><path d="M214 386.3 V431.7 M544 550.5 V598.7 M874 618.2 V659.9" style="stroke-width: 4"></path></g>
+<g style="fill: #D9480F; stroke: #FFFFFF; stroke-width: 3"><circle cx="214" cy="411.5" r="14"></circle><circle cx="544" cy="575.7" r="14"></circle><circle cx="874" cy="639.8" r="14"></circle></g>
+</svg>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; column-gap: 56px; row-gap: 8px; align-items: center; font-size: 36px; line-height: 48px; font-weight: 600">
+<div style="color: #4A5361; font-weight: 500">Compression ratio = history tokens ÷ memory tokens</div>
+<div style="display: flex; flex-direction: row; gap: 14px; align-items: center"><svg aria-hidden="true" width="64" height="32" viewBox="0 0 64 32"><path d="M2 16 H62" style="stroke: #D9480F; stroke-width: 6; fill: none"></path><circle cx="32" cy="16" r="12" style="fill: #D9480F; stroke: #FFFFFF; stroke-width: 3"></circle></svg><span>Prose</span></div>
+<div style="display: flex; flex-direction: row; gap: 14px; align-items: center"><svg aria-hidden="true" width="64" height="32" viewBox="0 0 64 32"><path d="M2 16 H62" style="stroke: #1C5FD4; stroke-width: 6; fill: none"></path><rect x="21" y="5" width="22" height="22" style="fill: #1C5FD4; stroke: #FFFFFF; stroke-width: 3"></rect></svg><span>JSON</span></div>
+<div style="display: flex; flex-direction: row; gap: 14px; align-items: center"><svg aria-hidden="true" width="64" height="32" viewBox="0 0 64 32"><path d="M2 16 H62" style="stroke: #0B4F4A; stroke-width: 6; fill: none"></path><path d="M32 2 L46 16 L32 30 L18 16 Z" style="fill: #0B4F4A; stroke: #FFFFFF; stroke-width: 3"></path></svg><span>Anchors + summary</span></div>
+</div>
+<div style="font-size: 32px; line-height: 44px; color: #4A5361">LoCoMo, 10 conversations, 1,540 questions, 25 conditions. Bars are 95% intervals from a bootstrap over conversations. Retrieval and full history are the same in both panels.</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px">
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 48px; line-height: 60px; font-weight: 700">More rewrites, same final size (10x)</div>
+<svg role="img" aria-label="Line chart at 10x compression. Prose falls from 47.0 written once to 37.3 rewritten every 4 sessions to 25.6 rewritten every session. JSON 35.9, 29.8, 26.9. Anchors 34.2, 25.5, 22.0." viewBox="0 0 1100 740" style="width: 908px; height: 611px; font-family: Inter, system-ui, sans-serif">
+<g style="stroke: #D5D9E0; stroke-width: 3; fill: none"><path d="M150 40 H1070 M150 233.3 H1070 M150 426.7 H1070"></path></g>
+<path d="M150 620 H1070" style="stroke: #12161C; stroke-width: 4; fill: none"></path>
+<g style="font-size: 40px; fill: #4A5361; text-anchor: end"><text x="134" y="634">0</text><text x="134" y="441">20</text><text x="134" y="247">40</text><text x="134" y="54">60</text></g>
+<g style="font-size: 40px; fill: #12161C; text-anchor: middle; font-weight: 600"><text x="240" y="672">Once</text><text x="590" y="672">Every 4 sessions</text><text x="940" y="672">Every session</text></g>
+<g style="font-size: 34px; fill: #4A5361; text-anchor: middle"><text x="240" y="718">1 write</text><text x="590" y="718">5 to 8 rewrites</text><text x="940" y="718">19 to 32 rewrites</text></g>
+<text transform="translate(38 330) rotate(-90)" style="font-size: 38px; fill: #4A5361; text-anchor: middle">Questions correct (%)</text>
+<g style="stroke: #0B4F4A; fill: none"><path d="M256 289.4 L606 373.5 L956 407.3" style="stroke-width: 6"></path><path d="M256 267.2 V309.7 M606 336.8 V405.4 M956 377.4 V436.3" style="stroke-width: 4"></path></g>
+<g style="fill: #0B4F4A; stroke: #FFFFFF; stroke-width: 3"><path d="M256 271.4 L274 289.4 L256 307.4 L238 289.4 Z"></path><path d="M606 355.5 L624 373.5 L606 391.5 L588 373.5 Z"></path><path d="M956 389.3 L974 407.3 L956 425.3 L938 407.3 Z"></path></g>
+<g style="stroke: #1C5FD4; fill: none"><path d="M240 273 L590 331.9 L940 360" style="stroke-width: 6"></path><path d="M240 244 V300 M590 302.9 V358 M940 341.6 V377.4" style="stroke-width: 4"></path></g>
+<g style="fill: #1C5FD4; stroke: #FFFFFF; stroke-width: 3"><rect x="226" y="259" width="28" height="28"></rect><rect x="576" y="317.9" width="28" height="28"></rect><rect x="926" y="346" width="28" height="28"></rect></g>
+<g style="stroke: #D9480F; fill: none"><path d="M224 165.7 L574 259.4 L924 372.5" style="stroke-width: 6"></path><path d="M224 121.2 V203.4 M574 212.1 V307.8 M924 338.7 V403.5" style="stroke-width: 4"></path></g>
+<g style="fill: #D9480F; stroke: #FFFFFF; stroke-width: 3"><circle cx="224" cy="165.7" r="15"></circle><circle cx="574" cy="259.4" r="15"></circle><circle cx="924" cy="372.5" r="15"></circle></g>
+<g style="font-size: 40px; font-weight: 700; fill: #D9480F; text-anchor: middle"><text x="224" y="104">47.0</text><text x="574" y="195">37.3</text><text x="924" y="322">25.6</text></g>
+</svg>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 40px">
+
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 48px; line-height: 60px; font-weight: 700">Why wrong answers were wrong</div>
+<div style="display: flex; flex-direction: row; height: 84px; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700; color: #FFFFFF">
+<div style="width: 80%; background: #12161C; display: flex; align-items: center; padding-left: 24px; box-sizing: border-box">80%</div>
+<div style="width: 18%; background: #5F6B7A; display: flex; align-items: center; justify-content: center">18%</div>
+<div style="width: 2%; background: #D9480F"></div>
+</div>
+<div style="font-size: 34px; line-height: 46px"><b>80%</b> the fact is no longer in the memory · <b style="color: #4A5361">18%</b> it is in the memory but was not read out · <b style="color: #D9480F">2%</b> the memory contradicts the answer. 21,418 wrong answers from memories.</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px; background: #F1F3F6; padding: 28px 32px">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; line-height: 56px; font-weight: 700">Second benchmark: LongMemEval</div>
+<div style="font-size: 34px; line-height: 46px">40 questions at 20x. Written once: <b>32 to 33 of 40</b> correct, level with full history (33). Rewritten every 4 sessions: <b>23 to 29</b>. Same direction in all three formats; too few questions to compare formats.</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 40px">
+
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 66px; line-height: 80px; font-weight: 700"><span style="color: #D9480F">4</span> Analysis</h2>
+
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9480F">What the numbers mean</div>
+<div style="text-wrap: pretty"><b>Every rewrite loses facts.</b> At the same final size, a memory rewritten after every session scores 6 to 21 points below one written once, in all 3 formats at all 3 ratios.</div>
+<div style="text-wrap: pretty"><b>Format matters only until you rewrite.</b> Written once, prose beats JSON by 11 points at 4x and 10x. Rewritten every session, the two are tied.</div>
+<div style="text-wrap: pretty"><b>Errors are loss, not confusion.</b> In 80% of wrong answers the fact is simply gone. Only 2% come from a memory that says something false.</div>
+</div>
+
+<div style="height: 3px; background: #C9CED6"></div>
+
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9480F">What failed or surprised us</div>
+<div style="text-wrap: pretty"><b>Compression lost to plain retrieval.</b> BM25 over raw turns is level with the best memory at 4x and wins by 15 and 28 points at 10x and 20x. It had about a tenth more text, far too little to explain those gaps.</div>
+<div style="text-wrap: pretty"><b>Quoting word for word did not protect facts.</b> Anchors + summary was built to resist drift, yet it is the lowest of the three formats in every cell, often within the interval.</div>
+<div style="text-wrap: pretty"><b>"More rewrites, lower accuracy" is clear only for prose.</b> For JSON and anchors, going from every 4 sessions to every session is within noise.</div>
+</div>
+
+<div style="height: 3px; background: #C9CED6"></div>
+
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div style="font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9480F">What is still open</div>
+<div style="text-wrap: pretty"><b>The judge is a model.</b> Sonnet's right-or-wrong verdicts have not been checked against human labels yet.</div>
+<div style="text-wrap: pretty"><b>Narrow evidence.</b> One model family, one main benchmark, one sample of each memory; intervals come from 10 conversations.</div>
+<div style="text-wrap: pretty"><b>Why does rewriting hurt?</b> Untested idea: each rewrite keeps a fact only with some probability, so losses compound. A control that rewrites without adding a new session would test it.</div>
+<div style="text-wrap: pretty"><b>Not a level field.</b> Retrieval sees the question; the compressor never does.</div>
+</div>
+
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline; gap: 64px; border-top: 3px solid #C9CED6; padding-top: 24px; font-size: 32px; line-height: 44px; color: #4A5361">
+<div>Data: LoCoMo (Maharana et al., 2024, arXiv 2402.17753) · LongMemEval (Wu et al., 2024, arXiv 2410.10813)</div>
+<div>Compressor and reader: Claude Haiku 5.5 · Judge: Claude Sonnet 5.5 · Main run: about 105,000 model calls</div>
+<div>Every number traces to a file in the repository README</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":4608,"height":3456}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
